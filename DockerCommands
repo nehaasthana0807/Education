@@ -1,5 +1,7 @@
 Docker is a powerful tool for containerization, and here are some quick commands with explanations to help you get started:
 
+If you want to try out these commands for free - https://labs.play-with-docker.com/
+
 docker version: This command displays the Docker version information on your system. It's useful to check if Docker is installed and to verify the version.
 
 docker info: Provides detailed information about your Docker installation, including the number of containers and images, storage drivers, and more.
