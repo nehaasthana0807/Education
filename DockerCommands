@@ -32,6 +32,12 @@ docker network ls: Lists all networks created on the Docker host.
 
 docker volume ls: Lists all volumes created on the Docker host.
 
+Scenario 1: If you need to delete the image for which there is a container created.
+1) Delete the container: docker rm <id of container> (You can see id using command 'docker ps -a')
+2) Now delete the image: docker image rm <id of image> (You can see image if using 'docker images' command)
+
+If you do not delete the container it will flash an error stating "unable to delete: image is being used by container <id>".
+
 docker-compose up: Starts services defined in a docker-compose.yml file. This is useful for multi-container applications.
 
 docker-compose down: Stops and removes containers, networks, and volumes defined in a docker-compose.yml file.
