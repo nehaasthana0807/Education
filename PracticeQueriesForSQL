@@ -1,0 +1,20 @@
+Practice Queries:
+Retrieve all columns from the "products" table.
+
+Find the names of all employees in the "Sales" department.
+
+List the unique cities from the "customers" table.
+
+Select the product with the highest price from the "inventory" table.
+Insert a new customer with a name "Alice" into the "customers" table.
+
+Add a new product with a name "Widget" and a price of 19.99 into the "products" table.
+Update the salary of employee with ID 101 to 65000 in the "employees" table.
+
+Change the product name from "Old Widget" to "New Widget" in the "products" table.
+Delete the order with OrderID 123 from the "orders" table.
+
+Remove all employees with a status of "terminated" from the "employees" table.
+Use the TRUNCATE command to remove all data from the "log_records" table.
+
+Truncate the "audit_logs" table to clear all audit log records.
